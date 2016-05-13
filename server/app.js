@@ -13,7 +13,6 @@ app.use(bodyParser.urlencoded({extended: true}));
 // Routes
 app.use('/bios', bios);
 app.use('/likes' likes);
-app.use('/likes' likes);
 
 app.get('/', function(req, res){
   var file = 'views/index.html';
